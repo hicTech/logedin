@@ -1,0 +1,23 @@
+
+.footer{
+    height:300px;
+    overflow:hidden;      
+}
+
+.footer .COLS{
+     -webkit-box-pack:center;
+    -moz-box-pack:center;
+    -webkit-flex-pack:center; 
+}
+
+.iphone-col{
+    height:300px;
+    overflow:hidden;
+}
+
+
+.iphone{
+    background-image:url(img/iphone.png);
+    width:300px;
+    height:628px;
+}
