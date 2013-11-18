@@ -2,34 +2,43 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/toolbar.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/socials.css">
-        <link rel="stylesheet" href="css/loading.css">
-        <link rel="stylesheet" href="css/body.css">
-        <link rel="stylesheet" href="css/flex_layout.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/plugins/sharrre.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/toolbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/socials.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/flex_layout.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/plugins/sharrre.js"></script>
+    
+    
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+    <!-- Add your site or application content here -->
 
 
 
@@ -37,38 +46,42 @@
 
 
 
-                    
-                    <div class="EXTENDER bg off blured">
-                        <div class="ROWS">
-                            <div class="ROW toolbar">
-                                <div class="EXTENDER">
-                                    <div class="COLS step-indicators">
-                                        <div class="COL step-indicator current">1</div>
-                                        <div class="COL step-indicator">2</div>
-                                        <div class="COL step-indicator">3</div>
-                                        <div class="COL step-indicator">4</div>
-                                        <div class="COL step-indicator">5</div>
+    <div class="EXTENDER bg">
+        <div class="ROWS">
+            <div class="ROW toolbar">
+                <div class="EXTENDER">
+                    <div class="COLS step-indicators">
+                        <div class="COL step-indicator current">1</div>
+                        <div class="COL step-indicator">2</div>
+                        <div class="COL step-indicator">3</div>
+                        <div class="COL step-indicator">4</div>
+                        <div class="COL step-indicator">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ROW-FLEX body">
+                <div class="PADDER">
+                    <div class="COLS">
+                        <div class="COL body-left"></div>
+                        <div class="COL body-center">
+
+
+                            <div class="EXTENDER">
+                                <div class="PADDER-CENTER">
+                                    <div class="qrcode_container">
+                                        <img src="css/img/qr.png">
                                     </div>
                                 </div>
                             </div>
-                            <div class="ROW-FLEX body">
-                                <div class="PADDER">
-                                    <div class="COLS">
-                                        <div class="COL body-left"></div>
-                                        <div class="COL body-center">
-                                            <div id="STEP-1">
-                                                <div class="landing-message">what a grey page! <br> make it better</div>
-                                                <div class="qrcode_container">
-                                                    <img src="css/img/qr.png">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="COL body-right"></div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <!--
+
+
+                        </div>
+                        <div class="COL body-right"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!--
                             <div class="ROW footer">
                                 <div class="EXTENDER">
                                     <div class="COLS">
@@ -80,62 +93,71 @@
                                 
                             </div>
                             -->
-                            
-                            <div class="ROW socials">
-                                <div class="socials_container">
-                                  <div id="twitter" data-url="http://appml.org/" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="Tweet"></div>
-                                  <div id="facebook" data-url="http://appml.org/" data-text="Make your sharing widget with Sharrre (jQuery Plugin)" data-title="Like"></div>
-                                </div>
-                                <script>
-                                    
-                                    $('#twitter').sharrre({
-                                      share: {
-                                        twitter: true
-                                      },
-                                      enableHover: false,
-                                      enableTracking: false,
-                                      enableCounter :false,
-                                      buttons: { twitter: {via: '_JulienH'}},
-                                      click: function(api, options){
-                                        api.simulateClick();
-                                        api.openPopup('twitter');
-                                      }
-                                    });
-                                    $('#facebook').sharrre({
-                                      share: {
-                                        facebook: true
-                                      },
-                                      enableHover: false,
-                                      enableTracking: false,
-                                      enableCounter :false,
-                                      click: function(api, options){
-                                        api.simulateClick();
-                                        api.openPopup('facebook');
-                                      }
-                                    });
-                                    
-                                </script>
+
+            <div class="ROW socials">
+                <div class="socials_container">
+                    <div id="twitter" data-url="http://appml.org/" data-title="Tweet"></div>
+                    <div id="facebook" data-url="http://appml.org/" data-title="Like"></div>
+                </div>
+                <script>
+                    $('#twitter').sharrre({
+                        share: {
+                            twitter: true
+                        },
+                        enableHover: false,
+                        enableTracking: false,
+                        enableCounter: false,
+                        buttons: {
+                            twitter: {
+                                via: '_JulienH'
+                            }
+                        },
+                        click: function(api, options) {
+                            api.simulateClick();
+                            api.openPopup('twitter');
+                        }
+                    });
+                    $('#facebook').sharrre({
+                        share: {
+                            facebook: true
+                        },
+                        enableHover: false,
+                        enableTracking: false,
+                        enableCounter: false,
+                        click: function(api, options) {
+                            api.simulateClick();
+                            api.openPopup('facebook');
+                        }
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="APP-loading">
+
+        <div class="EXTENDER">
+            <div class="PADDER-CENTER">
+                <div style="width: 100%; background-color:rgba(0,0,0,0.5)">
+                    <div style="color:white; text-align:center; font-weight:lighter; padding:40px 20px">We are waiting for your email... this page will
+                        <br>automatically refresh once we'll get it</div>
+                    <div class="loading">
+                        <div class="track"></div>
+                        <div class="spinner">
+                            <div class="loadingMask">
+                                <div class="maskedCircle"></div>
                             </div>
-                            
                         </div>
                     </div>
+                </div>
 
-
-
-
-<div class="APP-loading">
-    <div style="color:white; text-align:center; font-weight:lighter">We are waiting for your email... this page will <br> automatically refresh once we'll get it</div>
-    <div class="loading">
-        <div class="track"></div>
-        <div class="spinner">
-          <div class="loadingMask">
-            <div class="maskedCircle"></div>
-          </div>
+            </div>
         </div>
-      </div>
     </div>
-        
-</div>        
 
 
 
@@ -152,25 +174,29 @@
 
 
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
 
 
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+</body>
 
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
 </html>
